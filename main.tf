@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 module "s3-webapp" {
-  source  = "app.terraform.io/sudorepo/s3-webapp1/aws"
+  source  = "app.terraform.io/sudorepo/s3-webapp2/aws"
   name    = var.name
   region  = var.region
   prefix  = var.prefix
